@@ -68,7 +68,7 @@ will produce an OpTreeNode. For example, we can do:
 
 .. code:: python
 
-    # f are OpTreeNode in the following example
+    # f is an OpTreeNode in the following example
     f = x1 + x2 # Tensor + Tensor
     f = x1 + t1 # Tensor + OpTreeNode
     f = t1 + t2 # OpTreeNode + OpTreeNode
